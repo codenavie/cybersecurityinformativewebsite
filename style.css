@@ -1,0 +1,140 @@
+/* Custom Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333; 
+
+/* Logo Styling */
+.logo-img {
+    height: 80px; 
+    width: auto; 
+}
+
+/* Navbar */
+.navbar {
+    background-color: #003366; 
+}
+.navbar-brand, .nav-link {
+    color: #fff !important; 
+    font-weight: 500;
+}
+.navbar-brand:hover, .nav-link:hover {
+    color: #FFCC00 !important; 
+}
+.navbar-nav .nav-link {
+    margin-left: 1rem;
+}
+.navbar-toggler {
+    border: none;
+}
+
+/* Section Headers */
+h2 {
+    font-weight: 800;
+    color: #003366; 
+    margin-bottom: 1.5rem;
+}
+
+/* About Section */
+#about {
+    background-color: #E3F2FD; 
+    padding: 4rem 0;
+    font-size: large;
+}
+#about p {
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto 2rem auto;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.custom-logo {
+    width: auto; 
+    height: auto; 
+    margin-top: -100px; 
+}
+
+/* Feature Cards */
+.feature-card {
+    border: none;
+    background-color: #FFFFFF; 
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.feature-card:hover {
+    transform: scale(1.05);
+}
+.feature-card h5 {
+    color: #006699; 
+    font-weight: 600;
+}
+.feature-card p {
+    color: #555;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* Gallery */
+#gallery {
+    padding: 4rem 0;
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.modal-body p {
+    font-size: 20px; 
+    font-family: Arial, sans-serif; 
+}
+
+/* Contact Section */
+#contact {
+    background-color: #F8F9FA; 
+    padding: 4rem 0;
+}
+#contact form .form-control, #contact form button {
+    border-radius: 0.5rem;
+}
+#contact form .form-control:focus {
+    border-color: #006699; 
+    box-shadow: 0 0 5px rgba(0, 102, 153, 0.5);
+}
+#contact form button {
+    background-color: #003366; 
+    border: none;
+    transition: background-color 0.3s ease;
+}
+#contact form button:hover {
+    background-color: #0056b3; 
+}
+
+/* Footer */
+.footer {
+    background-color: #003366; 
+    color: #fff;
+    padding: 1.5rem 0;
+}
+.footer a {
+    color: #FFCC00; 
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #FFD000; 
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767px) {
+    .navbar-brand, .nav-link {
+        font-size: 0.9rem;
+     }
+         h2 {
+        font-size: 1.75rem;
+     }
+   }
+}
